@@ -29,12 +29,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Teach my <span id ='ai'> self-learning AI </span> to talk</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <iframe
+          id="assistant"
+          width="450"
+          height="630"
+          src="https://console.dialogflow.com/api-client/demo/embedded/a99fcbaa-e508-4ece-a001-81a3e0c23fb3">
+        </iframe>
       </div>
     );
   }
