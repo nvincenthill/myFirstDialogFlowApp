@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import { ApiAiClient } from 'api-ai-javascript';
+// import { ApiAiClient } from 'api-ai-javascript';
 import './App.css';
 
 // const client = new ApiAi.ApiAiClient({accessToken: 'YOUR_ACCESS_TOKEN'});
@@ -20,9 +19,9 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.client = new ApiAiClient({
-      accessToken: '280344fb165a461a8ccfef7e1bb47e65'
-    });
+    this.state = {
+      chatBotDisplayed: true
+    }
   }
 
   render() {
