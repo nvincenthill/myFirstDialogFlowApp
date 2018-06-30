@@ -33,7 +33,7 @@ class App extends Component {
         <iframe
           id="assistant"
           width="450"
-          height="630"
+          height="500"
           src="https://console.dialogflow.com/api-client/demo/embedded/a99fcbaa-e508-4ece-a001-81a3e0c23fb3">
         </iframe>
       </div>
